@@ -1,0 +1,55 @@
+c2b_order_detail(销售订单表)
+order_no String //订单号
+company_code String //企业代码
+company_name String //企业名称
+brand_id    String //品牌id		 对应字段TM_BRAND.BRAND_ID
+brand_name  String //品牌名称    对应字段TM_BRAND.CHINESE_NAME
+										
+series_id String  //车系ID       对应字段TM_SERIES.SERIES_ID
+series_name String //车系名称    对应字段TM_SERIES.CHINESE_NAME
+vin String//VIN
+vc  String //VC
+
+week_date String//计划周次
+create_time date //创建时间									
+model_id String //车型年id       对应字段TM_MODEL.MODEL_ID
+model_name String //车型年名称   对应字段TM_MODEL.MODEL_CODE	
+
+quantity String //数量	         对应字段TM_PART_USAGE.QUANTITY											
+parent_material_name String//上级物料名称
+parent_material_code String//上级物料号	
+compare_material_code String //对照物料号
+compare_material_name String //对照物料名称	
+head_material_code String //头物料号
+head_material_name String //头物料名称	
+supplier_code String//供应代码
+supplier_name String//供应商名称
+
+
+c2b_sub_demand_detail(毛需求表)
+demand_no String //需求单号
+company_code String //企业代码
+company_name String //企业名称
+brand_id    String //品牌id		 对应字段TM_BRAND.BRAND_ID
+brand_name  String //品牌名称    对应字段TM_BRAND.CHINESE_NAME
+										
+series_id String  //车系ID       对应字段TM_SERIES.SERIES_ID
+series_name String //车系名称    对应字段TM_SERIES.CHINESE_NAME
+										
+model_id String //车型年id       对应字段TM_MODEL.MODEL_ID
+model_name String //车型年名称   对应字段TM_MODEL.MODEL_CODE
+																
+quantity  String //数量           对应字段TM_PART_USAGE.QUANTITY											
+week_date String//计划周次
+enquiry_time date //要货日期
+create_time date //创建时间	
+status String //毛需求订单状态
+
+parent_material_name String//上级物料名称
+parent_material_code String//上级物料号	
+compare_material_code String //对照物料号
+compare_material_name String //对照物料名称	
+head_material_code String //头物料号
+head_material_name String //头物料名称	
+supplier_code String//供应代码
+supplier_name String//供应商名称
